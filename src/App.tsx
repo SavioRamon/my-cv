@@ -1,9 +1,12 @@
+import { Container, Title } from "./app.styles";
+import { GlobalStyle } from "./globalStyle";
 
 function App() {
   return (
-    <div>
-      my cv
-    </div>
+    <Container>
+      <GlobalStyle />
+      <Title>Hello, World!</Title>
+    </Container>
   );
 }
 
