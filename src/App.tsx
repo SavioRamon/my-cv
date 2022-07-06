@@ -1,11 +1,13 @@
-import { Container, Title } from "./app.styles";
+import { Outlet } from "react-router-dom";
+import { Container } from "./app.styles";
 import { GlobalStyle } from "./globalStyle";
 
 function App() {
   return (
     <Container>
       <GlobalStyle />
-      <Title>Hello, World!</Title>
+      
+      <Outlet />
     </Container>
   );
 }
